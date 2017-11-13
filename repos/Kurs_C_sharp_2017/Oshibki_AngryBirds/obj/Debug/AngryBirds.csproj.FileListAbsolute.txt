@@ -1,0 +1,8 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\bin\Debug\AngryBirds.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\bin\Debug\AngryBirds.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\bin\Debug\AngryBirds.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\bin\Debug\TestingRoom.dll
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\obj\Debug\AngryBirds.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\obj\Debug\AngryBirds.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\obj\Debug\AngryBirds.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_AngryBirds\obj\Debug\AngryBirds.pdb

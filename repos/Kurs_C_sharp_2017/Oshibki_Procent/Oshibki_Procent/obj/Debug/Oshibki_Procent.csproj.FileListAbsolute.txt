@@ -1,0 +1,14 @@
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\bin\Debug\Oshibki_Procent.exe.config
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\bin\Debug\Oshibki_Procent.exe
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\bin\Debug\Oshibki_Procent.pdb
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.exe
+C:\Users\Max\source\repos\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\bin\Debug\Oshibki_Procent.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\bin\Debug\Oshibki_Procent.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\bin\Debug\Oshibki_Procent.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Procent\Oshibki_Procent\obj\Debug\Oshibki_Procent.pdb

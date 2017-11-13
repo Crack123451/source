@@ -1,0 +1,7 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\bin\Debug\DragonFractal.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\bin\Debug\DragonFractal.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\bin\Debug\DragonFractal.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\obj\Debug\DragonFractal.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\obj\Debug\DragonFractal.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\obj\Debug\DragonFractal.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Cikli_Figure\obj\Debug\DragonFractal.pdb

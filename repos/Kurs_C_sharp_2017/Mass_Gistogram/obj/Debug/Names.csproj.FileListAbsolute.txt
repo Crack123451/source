@@ -1,0 +1,10 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\bin\Debug\names.txt
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\bin\Debug\Names.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\bin\Debug\Names.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\bin\Debug\Names.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\bin\Debug\ZedGraph.dll
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\bin\Debug\ZedGraph.xml
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\obj\Debug\Names.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\obj\Debug\Names.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\obj\Debug\Names.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Mass_Gistogram\obj\Debug\Names.pdb

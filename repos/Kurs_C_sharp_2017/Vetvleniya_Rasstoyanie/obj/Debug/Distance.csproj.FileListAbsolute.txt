@@ -1,0 +1,8 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\bin\Debug\Distance.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\bin\Debug\Distance.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\bin\Debug\Distance.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\bin\Debug\TestingRoom.dll
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\obj\Debug\Distance.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\obj\Debug\Distance.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\obj\Debug\Distance.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rasstoyanie\obj\Debug\Distance.pdb

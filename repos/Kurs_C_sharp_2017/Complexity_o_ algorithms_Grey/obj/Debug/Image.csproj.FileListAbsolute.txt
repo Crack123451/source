@@ -1,0 +1,8 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\bin\Debug\eurobot.bmp
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\bin\Debug\Recognizer.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\bin\Debug\Recognizer.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\bin\Debug\Recognizer.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\obj\Debug\Image.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\obj\Debug\Image.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\obj\Debug\Recognizer.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Complexity_o_ algorithms_Grey\obj\Debug\Recognizer.pdb

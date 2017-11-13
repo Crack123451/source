@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mass_Krest_noll", "Mass_Krest_noll\Mass_Krest_noll.csproj", "{EBD5DC9D-B588-4EE3-825E-7EF5E2D6C277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD5DC9D-B588-4EE3-825E-7EF5E2D6C277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD5DC9D-B588-4EE3-825E-7EF5E2D6C277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD5DC9D-B588-4EE3-825E-7EF5E2D6C277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD5DC9D-B588-4EE3-825E-7EF5E2D6C277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AA6AA68-62E0-4EC6-9AF7-C9D84CB3104F}
+	EndGlobalSection
+EndGlobal

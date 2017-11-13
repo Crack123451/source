@@ -1,0 +1,7 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\bin\Debug\Znakomstvo_Semenar5.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\bin\Debug\Znakomstvo_Semenar5.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\bin\Debug\Znakomstvo_Semenar5.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\obj\Debug\Znakomstvo_Semenar5.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\obj\Debug\Znakomstvo_Semenar5.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\obj\Debug\Znakomstvo_Semenar5.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar5\Znakomstvo_Semenar5\obj\Debug\Znakomstvo_Semenar5.pdb

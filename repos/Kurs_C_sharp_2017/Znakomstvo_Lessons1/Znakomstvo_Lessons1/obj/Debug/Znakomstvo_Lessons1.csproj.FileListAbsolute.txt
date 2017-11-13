@@ -1,0 +1,7 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\bin\Debug\Znakomstvo_Lessons1.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\bin\Debug\Znakomstvo_Lessons1.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\bin\Debug\Znakomstvo_Lessons1.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\obj\Debug\Znakomstvo_Lessons1.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\obj\Debug\Znakomstvo_Lessons1.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\obj\Debug\Znakomstvo_Lessons1.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Lessons1\Znakomstvo_Lessons1\obj\Debug\Znakomstvo_Lessons1.pdb

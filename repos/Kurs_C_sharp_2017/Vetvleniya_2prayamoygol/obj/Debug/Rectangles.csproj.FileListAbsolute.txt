@@ -1,0 +1,8 @@
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\bin\Debug\Rectangles.exe.config
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\bin\Debug\Rectangles.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\bin\Debug\Rectangles.pdb
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\bin\Debug\TestingRoom.dll
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\obj\Debug\Rectangles.csprojResolveAssemblyReference.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\obj\Debug\Rectangles.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\obj\Debug\Rectangles.exe
+C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_2prayamoygol\obj\Debug\Rectangles.pdb
