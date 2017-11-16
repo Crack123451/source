@@ -32,7 +32,9 @@ sumir' [x] =x
 sumir' (x:xs) = x+ sumir' xs
 
 
-
+mod' :: double -> double -> Int
+mod' x y | (y > x)   = x
+         | otherwise = mod' (x-y) y
 
 
 
