@@ -66,7 +66,7 @@ namespace Recognizer
 		[STAThread]
 		private static void Main()
 		{
-            var t = ThresholdFilterTask.ThresholdFilter(new double[,] { { 123 } }, 0);
+            var t = ThresholdFilterTask.ThresholdFilter(new double[,] { { 1 },{ 2 } }, 1);
 			var bmp = (Bitmap) Image.FromFile("eurobot.bmp");
 			var pixels = LoadPixels(bmp);
 
