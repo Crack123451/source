@@ -19,24 +19,17 @@ namespace Names
            */
 
             double[,] dayAndMounth = new double[30, 12];
-            string date;
-            int dayInt, mountInt;
             for (int i = 0; i < names.Length; i++)
-            {
-                date = names[i].ToString();
-                dayInt = int.Parse(date.Substring(0, 2));
-                mountInt = int.Parse(date.Substring(3, 2));
-                if (dayInt >= 2)
-                    dayAndMounth[dayInt - 2, mountInt - 1]++;
-            }
-
-            string[] mount = new string[dayAndMounth.GetLength(1)];
+                if (names[i].BirthDate.Day >= 2)
+                    dayAndMounth[names[i].BirthDate.Day - 2, names[i].BirthDate.Month - 1]++;           
             string[] day = new string[dayAndMounth.GetLength(0)];
-            for (int i = 2, j = 0; j < dayAndMounth.GetLength(0); i++, j++)
-                day[j] = i.ToString();
-            for (int i = 1, j = 0; j < dayAndMounth.GetLength(1); i++, j++)
-                mount[j] = i.ToString();
-
+            string[] mount = new string[dayAndMounth.GetLength(1)];
+            for (int i = 0, j = 0; j < dayAndMounth.GetLength(0); i++, j++)
+            {
+                day[j] = (i + 2).ToString();
+                if (j < dayAndMounth.GetLength(1))
+                    mount[j] = (i + 1).ToString();
+            }
             return new HeatmapData("Пример карты интенсивностей", dayAndMounth, day, mount);
         }
     }

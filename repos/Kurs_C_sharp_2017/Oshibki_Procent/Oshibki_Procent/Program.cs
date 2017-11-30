@@ -15,31 +15,15 @@ namespace Oshibki_Procent
 
         public static double Calculate(string userInput)
         {
-            int index;
-            double[] a = new double[3];
-            for (int i = 0; i < 3; i++)
-            {
-                index = userInput.IndexOf(' ');
-                if (index != -1)
-                {
-                    a[i] = double.Parse(userInput.Substring(0, index));
-                    userInput = userInput.Substring(index + 1, userInput.Length - (index + 1));
-                }
-                else
-                {
-                    a[i] = double.Parse(userInput);
-                    break;
-                }
-
-            }
-
-            for (int i = 0; i < a[2]; i++)
-                a[0] = a[0] + (a[1] * a[0] / (12*100));
-
-            //Console.WriteLine(a[0]);
-            //Console.ReadKey();
-            return a[0];
+            var a = new string[3];
+            a = userInput.Split(' ');
+            return ApplicationOfFormula(double.Parse(a[0]), double.Parse(a[1]), double.Parse(a[2]));
         }
-
+        public static double ApplicationOfFormula(double sum, double procentMonth, double periodMonth)
+        {
+            for (int i = 0; i < periodMonth; i++)
+                sum += procentMonth / 1200 * sum;
+            return sum;
+        }
     }
 }

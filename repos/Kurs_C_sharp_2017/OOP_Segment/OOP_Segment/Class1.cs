@@ -6,21 +6,30 @@ using System.Threading.Tasks;
 
 namespace GeometryTasks
 {
-    public class Geometry
+    public static class Geometry
     {
-        static double GetLength(Vector vectorDot1, Vector vectorDot2)
+        public static double GetLength(Vector vector)
         {
-            double lenght;
-            lenght = Math.Sqrt(Math.Pow(vectorDot2.X - vectorDot1.X, 2) + Math.Pow(vectorDot2.Y - vectorDot1.Y, 2));
-            return lenght;
+            return Math.Sqrt(vector.X * vector.X + vector.Y * vector.Y);
         }
-        static Vector[] Add(Vector[] dotVector1, Vector[] dotVector2)
+        public static double GetLength(Segment segment)
         {
-            Vector[] sum = new Vector[] { new Vector(), new Vector() };
-            sum[0].X = dotVector1[0].X + dotVector2[0].X;
-            sum[1].X = dotVector1[1].X + dotVector2[1].X;
-            sum[0].Y = dotVector1[0].Y + dotVector2[0].Y;
-            sum[1].Y = dotVector1[1].Y + dotVector2[1].Y;
+            return Math.Sqrt( Math.Pow(segment.End.X-segment.Begin.X,2) + Math.Pow(segment.End.Y - segment.Begin.Y, 2));
+        }
+        public static bool IsVectorInSegment(Vector vector, Segment segment)
+        {
+            if ((vector.X == segment.Begin.X && vector.Y == segment.Begin.Y)
+                || (vector.X == segment.End.X && vector.Y == segment.End.Y))
+                return true;
+            double p; //Коэффициент. Если =[0,1], то точка лежит на отрезке
+            p = (vector.X - segment.End.X) / (segment.Begin.X - segment.End.X);
+            return ( p*segment.Begin.Y + (1 - p)*segment.End.Y == vector.Y ) && (p >= 0 || p <= 1); 
+        }
+        public static Vector Add(Vector vector1, Vector vector2)
+        {
+            Vector sum = new Vector();
+            sum.X = vector1.X + vector2.X;
+            sum.Y = vector1.Y + vector2.Y;
             return sum;
         }
     }
@@ -33,6 +42,10 @@ namespace GeometryTasks
     {
         public Vector Begin;
         public Vector End;
-        Geometry.GetLength();
     }
 }
+
+
+/*return ( (vector.X - segment.Begin.X) / (segment.End.X - segment.Begin.X) 
+                == (vector.Y - segment.Begin.Y) / (segment.End.Y - segment.Begin.Y) );
+*/

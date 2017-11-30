@@ -27,25 +27,41 @@ namespace Fractals
 
 			*/
             double x = 1, y = 0;
-            //pixels.SetPixel(x, y);
+            double x1, y1;
             var random = new Random(seed);
             int nextNumber;
             for (int i = 0; i < iterationsCount; i++)
             {
-                nextNumber = random.Next(0,2);
+                nextNumber = random.Next(0, 2);
                 if (nextNumber == 0)
                 {
-                    x = (x * Math.Cos(45) - y * Math.Sin(45)) / Math.Sqrt(2);
-                    y = (x * Math.Sin(45) + y * Math.Cos(45)) / Math.Sqrt(2);
+                    x1 = (x * Math.Cos(Math.PI / 4) - y * Math.Sin(Math.PI / 4)) / Math.Sqrt(2);
+                    y1 = (x * Math.Sin(Math.PI / 4) + y * Math.Cos(Math.PI / 4)) / Math.Sqrt(2);
                 }
                 else
                 {
-                    x = (x * Math.Cos(135) - y * Math.Sin(135)) / Math.Sqrt(2) + 1;
-                    y = (x * Math.Sin(135) + y * Math.Cos(135)) / Math.Sqrt(2);
+                    x1 = (x * Math.Cos(3 * Math.PI / 4) - y * Math.Sin(3 * Math.PI / 4)) / Math.Sqrt(2) + 1;
+                    y1 = (x * Math.Sin(3 * Math.PI / 4) + y * Math.Cos(3 * Math.PI / 4)) / Math.Sqrt(2);
                 }
+                x = x1;
+                y = y1;
                 pixels.SetPixel(x, y);
-            }    
-
+            }
         }
-	}
+    }
 }
+}
+
+/*        public static void Conversion1(Pixels pixels, double x, double y)
+        {
+            x = (x * Math.Cos(45) - y * Math.Sin(45)) / Math.Sqrt(2);
+            y = (x * Math.Sin(45) + y * Math.Cos(45)) / Math.Sqrt(2);
+            pixels.SetPixel(x, y);
+        }
+        public static void Conversion2(Pixels pixels, double x, double y)
+        {
+            x = (x * Math.Cos(135) - y * Math.Sin(135)) / Math.Sqrt(2) + 1;
+            y = (x * Math.Sin(135) + y * Math.Cos(135)) / Math.Sqrt(2);
+            pixels.SetPixel(x, y);
+        }
+*/
