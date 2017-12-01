@@ -1,0 +1,3 @@
+﻿1>------ Сборка начата: проект: OopNonStaticClasses, Конфигурация: Debug Any CPU ------
+1>  OopNonStaticClasses -> C:\Users\Max\source\repos\OopNonStaticClasses\OopNonStaticClasses\bin\Debug\OopNonStaticClasses.dll
+========== Сборка: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========

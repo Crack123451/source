@@ -18,12 +18,9 @@ namespace GeometryTasks
         }
         public static bool IsVectorInSegment(Vector vector, Segment segment)
         {
-            if ((vector.X == segment.Begin.X && vector.Y == segment.Begin.Y)
-                || (vector.X == segment.End.X && vector.Y == segment.End.Y))
-                return true;
-            double p; //Коэффициент. Если =[0,1], то точка лежит на отрезке
-            p = (vector.X - segment.End.X) / (segment.Begin.X - segment.End.X);
-            return ( p*segment.Begin.Y + (1 - p)*segment.End.Y == vector.Y ) && (p >= 0 || p <= 1); 
+            double x = vector.X, y=vector.Y, x1=segment.Begin.X, x2=segment.End.X, 
+                y1=segment.Begin.Y, y2=segment.End.Y;
+            return ( ((x - x1)*(y2 - y1) - (y - y1)*(x2 - x1) == 0) && ( (x1<x && x<x2) || (x2<x && x<x1) ) );
         }
         public static Vector Add(Vector vector1, Vector vector2)
         {
@@ -48,4 +45,28 @@ namespace GeometryTasks
 
 /*return ( (vector.X - segment.Begin.X) / (segment.End.X - segment.Begin.X) 
                 == (vector.Y - segment.Begin.Y) / (segment.End.Y - segment.Begin.Y) );
+*/
+
+/*
+  if ( (vector.X == segment.Begin.X && vector.X == segment.End.X && vector.Y >= segment.Begin.Y && vector.Y <= segment.End.Y) 
+                || (vector.Y == segment.Begin.Y && vector.Y == segment.End.Y && vector.X >= segment.Begin.X && vector.X <= segment.End.X) )
+                return true;
+            double p; //Коэффициент. Если =[0,1], то точка лежит на отрезке
+            p = (vector.X - segment.End.X) / (segment.Begin.X - segment.End.X);
+            return ( p*segment.Begin.Y + (1 - p)*segment.End.Y == vector.Y ) && (p >= 0 || p <= 1); 
+*/
+
+/*
+double k, c; // Необходимые параметры
+            double x = segment.Begin.X, y = segment.End.X, z = segment.Begin.Y, w = segment.End.Y,
+                a = vector.X, b = vector.Y;
+            if (z == x)
+            {
+                return (a == x && b >= Math.Min(y, w) && x <= Math.Min(y, w));
+            }
+
+            k = (w - y) / (z - x);
+            c = y - k * x;
+
+            return b == a * k + c;
 */
