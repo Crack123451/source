@@ -9,28 +9,28 @@ foldr f (x:xs)  =  f x (foldr1 f xs)
 -}
 
 foldl' :: (b -> a -> b) -> b -> [a] -> b
-foldl' f x [] = x
+foldl' f x []     = x
 foldl' f x (y:ys) = foldl' f (f x y) ys
 
 foldr' :: (a -> b -> b) -> b -> [a] -> b
-foldr' f x [] = x
+foldr' f x []     = x
 foldr' f x (y:ys) = f y (foldr' f x ys)
 
 --Другие функции полученные из правой и левой свертки
 flatMap' :: (a -> [b]) -> [a] -> [b]
-flatMap' _ [] = []
+flatMap' _ []   = []
 flatMap' f list = foldr' (\y ys -> (f y) ++ ys) [] list
 
 map' :: (a -> b) -> [a] -> [b]
-map' _ [] = []
+map' _ []   = []
 map' f list = foldr' (\y ys -> (f y):ys) [] list
 
 filter' :: (a -> Bool) -> [a] -> [a]
-filter' _ [] = []
+filter' _ []   = []
 filter' f list = foldr' (\y ys -> if (f y) then (y:ys) else ys) [] list
 
 concat' :: [a] -> [a] -> [a]
-concat' [] [] = []
+concat' [] []       = []
 concat' list1 list2 = foldr' (\y ys -> y:ys) list2 list1
 
 maxBy' :: (a -> Integer) -> [a] -> a
@@ -40,7 +40,7 @@ minBy' :: (a -> Integer) -> [a] -> a
 minBy' f list = let hl = head list in foldl' (\min y -> if (f y) < (f min) then y else min) hl list
 
 reverse' :: [a] -> [a]
-reverse' [] = []
+reverse' []   = []
 reverse' list = foldl' (\ys y -> y:ys) [] list
 
 elementAt' :: Integer -> [a] -> a
