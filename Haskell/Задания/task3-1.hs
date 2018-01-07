@@ -108,10 +108,3 @@ instance Integral WeirdPeanoNumber where
   toInteger Zero = 0
   toInteger (Succ lhv) = (toInteger lhv) + 1
   toInteger (Pred lhv) = (toInteger lhv) - 1
-
-
---TEST
-test :: String -> String
-test str = show $ simplify (-5 * (Pred (Pred (Zero))))
-
-main = interact test
