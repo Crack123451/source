@@ -14,7 +14,7 @@ namespace ConsoleApp2
             WriteTextWithBorder("");
             WriteTextWithBorder(" ");
             WriteTextWithBorder("Game Over!");
-            WriteTextWithBorder("Select level:");
+            WriteTextWithBorder("Select level:");            
         }
         private static void WriteTextWithBorder(string text)
         {
