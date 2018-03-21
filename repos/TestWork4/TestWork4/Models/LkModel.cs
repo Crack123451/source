@@ -6,7 +6,7 @@ using System.Web;
 
 namespace TestWork4.Models
 {
-    public class EditModel
+    public class LkModel
     {
         [Display(Name = "Имя")]
         public string Name { get; set; }

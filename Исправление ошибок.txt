@@ -5,6 +5,33 @@
 	[RegularExpression(@"[А-яA-z\-]{2,}", ErrorMessage = "Некорректное имя пользователя. Оно должно состоять только из букв или дефиса.")]
         [RegularExpression(@"[А-яA-z\-]{2,}", ErrorMessage = "Некорректная фамилия пользователя. Она должно состоять только из букв или дефиса.")]
 
+2) Можно записать тот же код с помощью switch-case. В отличии от if-else (а точнее в моем случае - конструкции из тернарных условных операторов) такая конструкция будет выполняться быстрее. В if-else программа проходит от условия к условию последовательно, а в switch-case выполняются как бы параллельные вычисления - процесс сразу переходит к нужному ключу (case).
+
+switch (message)
+    {
+        case ManageMessageId.ChangePasswordSuccess:
+            ViewBag.StatusMessage = "Ваш пароль изменен.";
+            break;
+        case ManageMessageId.SetPasswordSuccess:
+            ViewBag.StatusMessage = "Пароль задан.";
+            break;
+        case ManageMessageId.SetTwoFactorSuccess:
+            ViewBag.StatusMessage = "Настроен поставщик двухфакторной проверки подлинности.";
+            break;
+        case ManageMessageId.Error:
+            ViewBag.StatusMessage = "Произошла ошибка.";
+            break;
+        case ManageMessageId.AddPhoneSuccess:
+            ViewBag.StatusMessage = "Ваш номер телефона добавлен.";
+            break;
+        case ManageMessageId.RemovePhoneSuccess:
+            ViewBag.StatusMessage = "Ваш номер телефона удален.";
+            break;
+        default:
+            ViewBag.StatusMessage = "";
+            break;
+    }
+
 4) Для того чтобы подтверждение телефона по SMS заработало:  
 Для начала я подключил в диспетчере пакетов NuGet API Twilio. В нем зарегистрировал себе онлайн номер телефона.
 
@@ -25,3 +52,9 @@
 
 Мне остается только сделать кнопку с ссылкой на Manage/AddPhoneNumber
 
+5) В представлении _Layout.cshtml (в котором выводится информация, присущая всем страницам сайта) я проверяю (прошел ли пользователь проверку подлинности) для кнопки "Личного кабинета":
+	@if(User.Identity.IsAuthenticated)
+        {
+             <li>@Html.ActionLink("Личный кабинет", "Lk", "Home")</li>
+        }
+Если бы у меня были заданы роли, то я бы мог воспользоваться методом Roles.IsUserInRole("Роль пользователя") в if.

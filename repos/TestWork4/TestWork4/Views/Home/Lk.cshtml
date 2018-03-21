@@ -1,10 +1,19 @@
 ﻿@{
-    ViewBag.Title = "Lk";
+    ViewBag.Title = "Личный кабинет";
 }
 
-<h2>Данные пользователя</h2>
-<p>Имя: @ViewBag.Name</p>
-<p>Фамилия: @ViewBag.LastName</p>
-<p>Возраст: @ViewBag.Age</p>
-<p>Город: @ViewBag.City</p>
-<p>@Html.ActionLink("Редактировать", "../Account/Edit")</p>
+<h2>@ViewBag.Title</h2>
+
+<div class="form-group">
+    <p><b>Имя: </b>@ViewBag.Name</p>
+</div>
+<div class="form-group">
+    <p><b>Фамилия: </b>@ViewBag.LastName</p>
+</div>
+<div class="form-group">
+    <p><b>Возраст: </b>@ViewBag.Age</p>
+</div>
+<div class="form-group">
+    <p><b>Город: </b>@ViewBag.City</p>
+</div>
+    <p>@Html.ActionLink("Редактировать", "../Account/Edit")</p>
