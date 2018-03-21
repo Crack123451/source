@@ -1,0 +1,27 @@
+﻿1) В AccountController.cs в классе RegisterViewModel добавил регулярные выражения:
+	а) для проверки Email
+	[RegularExpression(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}", ErrorMessage = "Некорректный Email адрес")]
+	б) для проверки имени и фамилии
+	[RegularExpression(@"[А-яA-z\-]{2,}", ErrorMessage = "Некорректное имя пользователя. Оно должно состоять только из букв или дефиса.")]
+        [RegularExpression(@"[А-яA-z\-]{2,}", ErrorMessage = "Некорректная фамилия пользователя. Она должно состоять только из букв или дефиса.")]
+
+4) Для того чтобы подтверждение телефона по SMS заработало:  
+Для начала я подключил в диспетчере пакетов NuGet API Twilio. В нем зарегистрировал себе онлайн номер телефона.
+
+Далее в папке App_Start в файле IdentityConfig.cs подключил этот сервис в классе SmsService, зная свой Sid, Token и номер телефона:
+	TwilioClient.Init(accountSid, authToken);
+	var messageToSend = MessageResource.Create(
+	    from: new PhoneNumber(twilioPhoneNumber),
+    	    to: new PhoneNumber(message.Destination),
+	    body: message.Body);
+
+В шаблоне MVC (Учетные записи отдельных пользователей) в контроллере ManageController уже записаны все необходимые методы: 
+	а) AddPhoneNumber (принимает номер телефона и отправляет на него код подтверждения) 
+		Если передается модель AddPhoneNumberViewModel, то начинаем проверку значения свойства ModelState.IsValid (объект ModelState сохраняет все значения, которые пользователь ввел для свойств модели, а также все ошибки). Если мы добавили SmsService (а мы это сделали), то генерируется сообщение. Далее происходит перенаправление в метод VerifyPhoneNumber.
+	б) VerifyPhoneNumber (верифицирует код). Если ему передается телефонный номер, то переходим в соответствующую перегрузку (иначе отправляем ошибку). Если нет ошибок в объекте ModelState и верификация пройдена, то происходит редирект на следующую страницу.
+
+Для них созданы и модели в ManageViewModels.cs.
+в папке Views/Manage уже имеются представления AddPhoneNumber.cshtml и VerufyPhoneNumber.cs.
+
+Мне остается только сделать кнопку с ссылкой на Manage/AddPhoneNumber
+
