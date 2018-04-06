@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using TestWork4.Models;
-
+using TestWork4.Common.Extensions;
 
 namespace TestWork4.Controllers
 {
@@ -68,7 +68,7 @@ namespace TestWork4.Controllers
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
-        {           
+        {
             if (ModelState.IsValid)
             {
                 var user = await UserManager.FindAsync(model.Email, model.Password);
@@ -252,6 +252,12 @@ namespace TestWork4.Controllers
                 user.LastName = model.LastName;
                 user.Age = model.Age;
                 user.City = model.City;
+
+                User.AddUpdateClaim("Name", model.Name);
+                User.AddUpdateClaim("LastName", model.LastName);
+                User.AddUpdateClaim("Age", (model.Age).ToString());
+                User.AddUpdateClaim("City", model.City);
+
                 IdentityResult result = await UserManager.UpdateAsync(user);
                 if (result.Succeeded)
                 {

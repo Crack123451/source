@@ -8,25 +8,12 @@ using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using TestWork4.Models;
+using TestWork4.Common.Extensions;
 
 namespace TestWork4.Controllers
 {
     public class HomeController : Controller
     {
-        //private ApplicationUserManager _userManager;
-
-        //public ApplicationUserManager UserManager
-        //{
-        //    get
-        //    {
-        //        return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
-        //    }
-        //    private set
-        //    {
-        //        _userManager = value;
-        //    }
-        //}
-
         public ActionResult Index()
         {
             return View();
@@ -35,16 +22,12 @@ namespace TestWork4.Controllers
         [Authorize]
         public ActionResult Lk()           
         {
-            //var identity = (ClaimsPrincipal)Thread.CurrentPrincipal;
             var identity = new ClaimsIdentity(User.Identity);
-            //identity.RemoveClaim(identity.FindFirst("name"));
-            //identity.AddClaim(new Claim("name",));
-
             ViewBag.Email = HttpContext.User.Identity.Name;
-            ViewBag.Name = identity.Claims.Where(c => c.Type == "name").Select(c => c.Value).SingleOrDefault();
-            ViewBag.LastName = identity.Claims.Where(c => c.Type == "lastName").Select(c => c.Value).SingleOrDefault();
-            ViewBag.Age = identity.Claims.Where(c => c.Type == "age").Select(c => c.Value).SingleOrDefault();
-            ViewBag.City = identity.Claims.Where(c => c.Type == "city").Select(c => c.Value).SingleOrDefault();
+            ViewBag.Name = User.GetClaimValue("Name") == null ? identity.Claims.Where(c => c.Type == "name").Select(c => c.Value).SingleOrDefault() : User.GetClaimValue("Name");
+            ViewBag.LastName = User.GetClaimValue("LastName") == null ? identity.Claims.Where(c => c.Type == "lastName").Select(c => c.Value).SingleOrDefault() : User.GetClaimValue("LastName");
+            ViewBag.Age = User.GetClaimValue("Age") ==null ? identity.Claims.Where(c => c.Type == "age").Select(c => c.Value).SingleOrDefault() : User.GetClaimValue("Age");
+            ViewBag.City = User.GetClaimValue("City") ==null ? identity.Claims.Where(c => c.Type == "city").Select(c => c.Value).SingleOrDefault() : User.GetClaimValue("City");
             return View();
         }
     }

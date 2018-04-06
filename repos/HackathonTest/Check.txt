@@ -1,0 +1,6 @@
+int amountFriend = 4;
+List<string[]> strFriend = new List<string[]>();
+strFriend.Add("4578 5 1256 4323 1897 3244 5678".Split());
+strFriend.Add("1256 2 4578 1897".Split());
+strFriend.Add("4323 4 5678 6547 9766 9543".Split());
+strFriend.Add("9766 1 3624".Split());        	
