@@ -1,6 +1,0 @@
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar2\Znakomstvo_Semenar2\bin\Debug\Znakomstvo_Semenar2.exe.config
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar2\Znakomstvo_Semenar2\bin\Debug\Znakomstvo_Semenar2.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar2\Znakomstvo_Semenar2\bin\Debug\Znakomstvo_Semenar2.pdb
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar2\Znakomstvo_Semenar2\obj\Debug\Znakomstvo_Semenar2.csproj.CoreCompileInputs.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar2\Znakomstvo_Semenar2\obj\Debug\Znakomstvo_Semenar2.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Znakomstvo_Semenar2\Znakomstvo_Semenar2\obj\Debug\Znakomstvo_Semenar2.pdb

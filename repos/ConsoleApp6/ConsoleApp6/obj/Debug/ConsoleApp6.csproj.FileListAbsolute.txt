@@ -1,7 +1,0 @@
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.csprojResolveAssemblyReference.cache
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.CoreCompileInputs.cache
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.exe
-C:\Users\Max\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.pdb

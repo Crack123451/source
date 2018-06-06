@@ -1,8 +1,0 @@
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\bin\Debug\rubles.txt
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\bin\Debug\Pluralize.exe.config
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\bin\Debug\Pluralize.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\bin\Debug\Pluralize.pdb
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\obj\Debug\Pluralize.csprojResolveAssemblyReference.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\obj\Debug\Pluralize.csproj.CoreCompileInputs.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\obj\Debug\Pluralize.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Vetvleniya_Rubl\obj\Debug\Pluralize.pdb

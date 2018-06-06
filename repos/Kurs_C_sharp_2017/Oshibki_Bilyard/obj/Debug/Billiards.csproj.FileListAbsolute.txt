@@ -1,8 +1,0 @@
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\bin\Debug\Billiards.exe.config
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\bin\Debug\Billiards.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\bin\Debug\Billiards.pdb
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\bin\Debug\TestingRoom.dll
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\obj\Debug\Billiards.csprojResolveAssemblyReference.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\obj\Debug\Billiards.csproj.CoreCompileInputs.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\obj\Debug\Billiards.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\Oshibki_Bilyard\obj\Debug\Billiards.pdb

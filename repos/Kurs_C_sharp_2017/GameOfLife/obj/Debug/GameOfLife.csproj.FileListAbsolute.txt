@@ -1,8 +1,0 @@
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\bin\Debug\GameOfLife.exe.config
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\bin\Debug\GameOfLife.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\bin\Debug\GameOfLife.pdb
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\bin\Debug\nunit.framework.dll
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\obj\Debug\GameOfLife.csprojResolveAssemblyReference.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\obj\Debug\GameOfLife.exe
-C:\Users\Max\source\repos\Kurs_C_sharp_2017\GameOfLife\obj\Debug\GameOfLife.pdb
