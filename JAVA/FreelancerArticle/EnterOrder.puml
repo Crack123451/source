@@ -1,0 +1,42 @@
+@startuml
+scale 1.4
+
+skinparam backgroundColor #EEEDDD
+skinparam sequence {
+ParticipantPadding 20
+
+ArrowColor black
+
+LifeLineBorderColor blue
+LifeLineBackgroundColor motivation
+
+ParticipantBorderColor black
+ParticipantBackgroundColor burlywood
+ParticipantFontColor black
+}
+
+
+title <size:20>Sequence Diagram</size>\n
+
+participant ":Threads" as Thr order 1
+participant ":Toolkit" as Tool order 2
+participant ":ComponentPeer" as Comp order 3
+participant ":target:Class1" as Clas order 4
+
+-> Thr : run
+activate Thr
+Thr ->Tool :  run
+activate Tool
+Tool -> Tool : callbackLoop
+activate Tool
+Tool -> Comp : handleExpose
+activate Comp
+Comp->Clas : \tpaint
+activate Clas
+deactivate Clas
+deactivate Comp
+deactivate Tool
+deactivate Tool
+deactivate Thr
+
+@enduml

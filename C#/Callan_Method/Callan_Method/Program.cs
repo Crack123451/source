@@ -10,7 +10,7 @@ namespace Callan_Method
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите нечетные числа ОТ и ДО включительно (через Enter):");
+            Console.WriteLine("Введите четные (нечетные) числа ОТ и ДО включительно (через Enter):");
             int start = Int32.Parse(Console.ReadLine());
             int finish = Int32.Parse(Console.ReadLine());
             int sum = 0;
@@ -24,6 +24,7 @@ namespace Callan_Method
                 }
                 Console.Write("{0},", i);                
             }
+            Console.WriteLine("Сумма страниц:");
             Console.WriteLine("\n\n"+sum);
             Console.ReadKey();
         }
